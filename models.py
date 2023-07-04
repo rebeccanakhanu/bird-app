@@ -1,5 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy_serializer import SerializerMixin
+from sqlalchemy.dialects.postgresql import postgresql
 
 db = SQLAlchemy()
 
